@@ -4,7 +4,7 @@ trigger:
       - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Default
 
 variables:
   AWS_REGION: 'us-west-2'
